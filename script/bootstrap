@@ -47,7 +47,10 @@ link_file () {
 
   local overwrite= backup= skip=
   local action=
-
+  echo overwrite = $overwrite
+  echo backup = $backup
+  echo skip = $skip
+  echo action = $action
   # If the file $dst exists and is a regular file 
   # OR the file is a directory
   # OR the file is a symlink
