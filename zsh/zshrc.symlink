@@ -1,8 +1,0 @@
-source ~/dotfiles/zsh/colors.zsh
-
-autoload -U compinit && compinit
-
-source ~/dotfiles/zsh/prompt.zsh
-source ~/dotfiles/zsh/exports.zsh
-source ~/dotfiles/zsh/aliases.zsh
-
