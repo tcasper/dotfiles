@@ -7,12 +7,16 @@ set incsearch
 set hlsearch
 set undofile
 set undodir=~/.VIM_UNDO_FILES
+set virtualedit=all
+set number
+set wildignore+=*/target/*
 
 syntax enable
 
 highlight ColorColumn ctermbg=magenta
-call matchadd('ColorColumn', '\%>80v', 100)
+" call matchadd('ColorColumn', '\%>80v', 100)
 
+imap jk <esc>
 nnoremap / /\v
 
 filetype off
@@ -22,6 +26,12 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'drmingdrmer/xptemplate'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-airline/vim-airline'
+Plugin 'Shougo/neocomplete.vim'
 
 call vundle#end()
 
@@ -46,4 +56,3 @@ filetype plugin indent on
 	endfunction	
 
 		
-
