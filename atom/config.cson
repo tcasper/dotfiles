@@ -1,0 +1,13 @@
+"*":
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "language-gfm"
+      "markdown-preview"
+    ]
+    telemetryConsent: "no"
+  "exception-reporting":
+    userId: "b20dbdaf-656a-4057-b8cc-ee74b0807268"
+  welcome:
+    showOnStartup: false

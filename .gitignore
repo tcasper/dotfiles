@@ -1,2 +1,6 @@
 .DS_Store
-
+storage
+compile-cache
+dev
+.npm
+.node-gyp

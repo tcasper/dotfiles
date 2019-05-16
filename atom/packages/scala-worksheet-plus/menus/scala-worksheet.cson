@@ -1,0 +1,20 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':[
+    {
+      'label': 'Enable Scala Worksheet Plus',
+      'command': 'scala-worksheet-plus:run'
+    }
+  ]
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Scala Worksheet Plus'
+      'submenu': [
+        { 'label': 'Run', 'command': 'scala-worksheet-plus:run' }
+      ]
+    ]
+  }
+]

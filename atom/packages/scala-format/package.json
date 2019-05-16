@@ -1,0 +1,53 @@
+{
+  "_from": "https://www.atom.io/api/packages/scala-format/versions/0.1.8/tarball",
+  "_id": "scala-format@0.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-Am2ZK2hNm5xpm+DwtshFQWS4S5Bc8RwSYDE2K3/PS5Xc9JVJ3FAuC6nJUWn573lDguV/jsX62ENvutKAnyeRUw==",
+  "_location": "/scala-format",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/scala-format/versions/0.1.8/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/scala-format/versions/0.1.8/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/scala-format/versions/0.1.8/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/scala-format/versions/0.1.8/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/scala-format/versions/0.1.8/tarball",
+  "_shasum": "ca9f65dce12c32efe0c69d7b3f3a37bc801d1d47",
+  "_spec": "https://www.atom.io/api/packages/scala-format/versions/0.1.8/tarball",
+  "_where": "/private/var/folders/3p/w382kzgd08v578823wg4c3cc0000gn/T/apm-install-dir-119415-86347-lwdf.14o08s",
+  "bugs": {
+    "url": "https://github.com/gangstead/atom-scala-format/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Scala formatting using Scalariform 0.1.5-SNAPSHOT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-apm": "0.0.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-lesslint": "~1.0.0"
+  },
+  "engines": {
+    "atom": ">0.181.0"
+  },
+  "homepage": "https://github.com/gangstead/atom-scala-format",
+  "license": "MIT",
+  "main": "lib/scala-format",
+  "name": "scala-format",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangstead/atom-scala-format.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "version": "0.1.8"
+}

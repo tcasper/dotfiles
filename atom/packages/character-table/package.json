@@ -1,0 +1,56 @@
+{
+  "_from": "https://www.atom.io/api/packages/character-table/versions/0.4.3/tarball",
+  "_id": "character-table@0.4.3",
+  "_inBundle": false,
+  "_integrity": "sha512-8jE2rEm6Atx7WuYD1q+ati5C1g6PsOqB4PIRDlGJCAdI4paoEz7+ANWaMMJX/9piHjn3MJZgx39fbUd9D57jAw==",
+  "_location": "/character-table",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/character-table/versions/0.4.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/character-table/versions/0.4.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/character-table/versions/0.4.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/character-table/versions/0.4.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/character-table/versions/0.4.3/tarball",
+  "_shasum": "d7cae5c66f746e9faa0e76b359fa69286a328f57",
+  "_spec": "https://www.atom.io/api/packages/character-table/versions/0.4.3/tarball",
+  "_where": "/private/var/folders/3p/w382kzgd08v578823wg4c3cc0000gn/T/apm-install-dir-119415-85547-14m46pq.ida5",
+  "bugs": {
+    "url": "https://github.com/klorenz/atom-character-table/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": ">=2.0.0",
+    "fuzzaldrin": "^2.1.0",
+    "q": "^1.0.1"
+  },
+  "deprecated": false,
+  "description": "Insert a character from a (almost) complete Unicode Character Table or use vim digraph style to insert it.",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/klorenz/atom-character-table#readme",
+  "keywords": [
+    "character",
+    "table",
+    "special",
+    "unicode",
+    "symbol",
+    "glyph",
+    "mnemonic",
+    "digraph"
+  ],
+  "license": "MIT",
+  "main": "./lib/character-table",
+  "name": "character-table",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klorenz/atom-character-table.git"
+  },
+  "version": "0.4.3"
+}

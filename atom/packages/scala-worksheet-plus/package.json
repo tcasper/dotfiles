@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/scala-worksheet-plus/versions/0.5.0/tarball",
+  "_id": "scala-worksheet-plus@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-6gT/4McKALJzl1WQ8ioaxuUOvSjpGn99MC5J76wVU6dU0Y+QetHhfHCmpclnmP8wQZB5/IEItbkRQjJmLFspWg==",
+  "_location": "/scala-worksheet-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/scala-worksheet-plus/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/scala-worksheet-plus/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/scala-worksheet-plus/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/scala-worksheet-plus/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/scala-worksheet-plus/versions/0.5.0/tarball",
+  "_shasum": "4c2d9c9af37d73fc2b97d4ef72526444859040ad",
+  "_spec": "https://www.atom.io/api/packages/scala-worksheet-plus/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/3p/w382kzgd08v578823wg4c3cc0000gn/T/apm-install-dir-119415-86368-15h7t7w.okjx",
+  "activationCommands": {
+    "atom-workspace": "scala-worksheet-plus:run"
+  },
+  "bugs": {
+    "url": "https://github.com/imamathwiz/scala-worksheet-plus/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  },
+  "deprecated": false,
+  "description": "Simple scala worksheet evaluator",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/imamathwiz/scala-worksheet-plus#readme",
+  "license": "MIT",
+  "main": "./lib/scala-worksheet",
+  "name": "scala-worksheet-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imamathwiz/scala-worksheet-plus.git"
+  },
+  "version": "0.5.0"
+}
